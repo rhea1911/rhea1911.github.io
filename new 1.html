@@ -1,0 +1,134 @@
+<!DOCTYPE html> 
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+ <title>Basic HTML/CSS website</title>
+        
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+        
+            
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        
+      <style type="text/css">
+        .clear {
+        zoom: 1;
+         display: block;
+        }
+        </style>
+
+        
+        <![endif]-->
+        
+    </head>
+    
+    <body>
+    	
+    	<section id="page"> <!-- Defining the #page section with the section tag -->
+    
+            <header> <!-- Defining the header section of the page with the appropriate tag -->
+            
+                <hgroup>
+                    <h1>RHEA KHARE</h1>
+                  <h3>IV SEM SRM NCR</h3>
+                </hgroup>
+                                
+                <nav class="clear"> <!-- The nav link semantically marks your main site navigation -->
+                    <ul>
+                        <li><a href="#article1">About MySelf</a></li>
+                        <li><a href="#article2">Projects</a></li>
+                        <li><a href="#article3">My Achievements</a></li>
+                    </ul>
+                </nav>
+            
+            </header>
+            
+            <section id="articles"> <!-- A new section with the articles -->
+
+				<!-- Article 1 start -->
+
+                <div class="line"></div>  <!-- Dividing line -->
+                
+                <article id="article1"> <!-- The new article tag. The id is supplied so it can be scrolled into view. -->
+                    <h2>About Myself</h2>
+                    
+                    <div class="line"></div>
+                    
+                    <div class="articleBody clear">
+                    
+                    	<figure> 
+	                    	<img src="photo.jpg" width="50%" height="50%" />
+                        </figure>
+                        
+                        <p>I am Rhea Khare, a student of SRM Institute of Science and Technology persuing my graduation in Electronics and Communication Engineering.
+                          Aged 20, I basically belong to Indore and have always been a student who tries to enjoy learning.Having grown in this generation where creativity
+                          and technology make the best combination,I feel web development and web designing is something
+                           that I would love to learn and also work upon. </p>
+                    </div>
+                </article>
+                
+				<!-- Article 1 end -->
+
+
+				<!-- Article 2 start -->
+
+                <div class="line"></div>
+                
+                <article id="article2">
+                    <h2>Projects</h2>
+                    
+                    <div class="line"></div>
+                    
+                    <div class="articleBody clear">
+                    	<figure>
+	                    	<img src="photo.jpg" width="50%" height="50%" />
+                        </figure>
+                        
+                        <p>Here we are making sweet AJAX-powered tabs with CSS3 and the newly released version 1.4 of jQuery.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. Duis felis dui, vulputate nec adipiscing nec, interdum vel tortor. Sed gravida, erat nec rutrum tincidunt, metus mauris imperdiet nunc, et elementum tortor nunc at eros. Donec malesuada congue molestie. Suspendisse potenti. Vestibulum cursus congue sem et feugiat. Morbi quis elit odio. </p>
+                    </div>
+                </article>
+                
+				<!-- Article 2 end -->
+
+				<!-- Article 3 start -->
+
+                <div class="line"></div>
+                
+                <article id="article3">
+                    <h2>My Achievements</h2>
+                    
+                    <div class="line"></div>
+                    
+                    <div class="articleBody clear">
+                    	<figure>
+	                    	<img src="photo.jpg" width="50%" height="50%" />
+                        </figure>
+                  
+                        <p>Today we are making a CSS3 & jQuery halftone-style navigation menu, which will allow you to display animated halftone-style shapes in accordance with the navigation links, and will provide a simple editor for creating additional shapes as well.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. Duis felis dui, vulputate nec adipiscing nec, interdum vel tortor. Sed gravida, erat nec rutrum tincidunt, metus mauris imperdiet nunc, et elementum tortor nunc at eros. Donec malesuada congue molestie. Suspendisse potenti. Vestibulum cursus congue sem et feugiat. Morbi quis elit odio. </p>
+                    </div>
+                </article>
+                
+				<!-- Article 3 end -->
+
+
+            </section>
+
+        <footer> <!-- Marking the footer section -->
+
+           <div class="line"></div>
+ 
+
+        </footer>
+            
+		</section> <!-- Closing the #page section -->
+        
+        <!-- JavaScript Includes -->
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+        <script src="jquery.scrollTo-1.4.2/jquery.scrollTo-min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
